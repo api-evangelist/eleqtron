@@ -1,7 +1,30 @@
 aid: eleqtron
 name: Eleqtron
-description: Eleqtron is a company surfaced as a portfolio company of earlybird and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  eleQtron GmbH is a German quantum computing hardware company founded in 2020 as
+  a spin-off from the Quantum Optics Department at the University of Siegen by
+  Prof. Dr. Christof Wunderlich, Dr. Michael Johanning (CTO), and Jan Leisse (CEO).
+  Based in Siegen, Germany, eleQtron develops freely programmable, scalable
+  trapped-ion quantum computers built on its proprietary MAGIC (Magnetic Gradient
+  Induced Coupling) technology, which controls qubits with microwaves rather than
+  lasers for higher precision and a clearer path to scaling. The company aims to
+  become a leading provider of quantum computing time for industrial applications
+  across chemicals, pharmaceuticals, automotive, logistics, finance, and machine
+  learning. eleQtron's systems are made accessible to developers through cloud
+  platforms and standard quantum frameworks (Qiskit, Cirq, PennyLane) rather than
+  a first-party public REST API. Backed by Earlybird Venture Capital.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://eleqtron.com/wp-content/uploads/2022/10/logo-eleqtron.png
 url: https://raw.githubusercontent.com/api-evangelist/eleqtron/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Quantum Computing
+- Trapped Ion
+- Hardware
+- Deep Tech
+- Germany
+- Qiskit
+- Research
 apis: []
+common:
+- type: DomainSecurity
+  url: security/eleqtron-domain-security.yml
+- type: Website
+  url: https://eleqtron.com/en/
+- type: Product
+  url: https://eleqtron.com/en/product/
+- type: About
+  url: https://eleqtron.com/en/company/
+- type: Careers
+  url: https://eleqtron.com/en/career/
+- type: Blog
+  url: https://eleqtron.com/en/press/
+- type: Support
+  url: https://eleqtron.com/en/contact/
+- type: PrivacyPolicy
+  url: https://eleqtron.com/en/privacy-policy/
+- type: LegalNotice
+  url: https://eleqtron.com/en/imprint/
+- type: LinkedIn
+  url: https://de.linkedin.com/company/eleqtron-qc
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

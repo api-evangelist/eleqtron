@@ -1,0 +1,21 @@
+{
+  "repo": "eleqtron",
+  "feeds": [
+    {
+      "source": "https://eleqtron.com/en/feed/",
+      "feed_url": "https://eleqtron.com/en/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://eleqtron.com/en/career/",
+      "feed_url": "https://eleqtron.com/en/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-07-25T15:00:33Z"
+}
